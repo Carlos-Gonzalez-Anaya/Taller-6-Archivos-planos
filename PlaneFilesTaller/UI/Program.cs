@@ -5,9 +5,10 @@ var personsPath = basePath + "Persons.txt";
 var usersPath = basePath + "Users.txt";
 var logPath = basePath + "log.txt";
 
+using var logger = new LogWriter(logPath);
 // LOGIN
 var auth = new AuthService();
-var currentUser = auth.Login(usersPath);
+var currentUser = auth.Login(usersPath, logger);
 
 if (currentUser == null)
 {
@@ -16,7 +17,6 @@ if (currentUser == null)
     return;
 }
 
-using var logger = new LogWriter(logPath);
 logger.WriteLog("INFO", currentUser, "LOGIN - Session started");
 
 var service = new PersonService();

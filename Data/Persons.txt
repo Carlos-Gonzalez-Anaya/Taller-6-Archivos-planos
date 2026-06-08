@@ -1,4 +1,5 @@
-00001Carlos              Gonzalez            3104275920     Medellin                15000000,00
-00003Dina                Saucedo             3258563247     Medellin                35000000,00
-00002Teresa              torres              3215468912     Barranquilla              580000,00
-00004jairo               perez               3024342558     Barranquilla              123052,00
+00001Carlos              Gonzalez            3104275920     Medellin              1500000000,00
+00003Dina                Saucedo             3258563247     Medellin              3500000000,00
+00002Teresa              torres              3215468912     Barranquilla            58000000,00
+00004jairo               perez               3024342558     Barranquilla            12305200,00
+00005hugo                barrios             3125325        Bogota                    456325,00

@@ -2,7 +2,7 @@
 
 public class AuthService
 {
-    public string? Login(string usersPath)
+    public string? Login(string usersPath, LogWriter logger)
     {
         int attempts = 0;
 
@@ -24,23 +24,27 @@ public class AuthService
             else if (found && !active)
             {
                 Console.WriteLine("\nYour account is blocked. Contact an administrator.\n");
+                logger.WriteLog("WARN", username, "LOGIN - Failed: account blocked");
                 return null;
             }
             else
             {
                 attempts++;
                 int remaining = 3 - attempts;
+                logger.WriteLog("WARN", username, $"LOGIN - Failed attempt {attempts}");
                 if (remaining > 0)
                     Console.WriteLine($"\nInvalid credentials. {remaining} attempt(s) remaining.\n");
                 else
                 {
                     Console.WriteLine("\nToo many failed attempts. Your account has been blocked.\n");
                     BlockUser(usersPath, username);
+                    logger.WriteLog("WARN", username, "LOGIN - Account blocked after 3 failed attempts");
                     return null;
                 }
             }
         }
         return null;
+    
     }
 
     private (bool found, bool active) ValidateUser(string usersPath, string username, string password)

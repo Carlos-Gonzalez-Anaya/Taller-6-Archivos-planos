@@ -14,3 +14,17 @@
 2026-06-07T23:17:29 | INFO  | User: mbedoya         | REPORT - City report viewed
 2026-06-07T23:17:36 | INFO  | User: mbedoya         | SAVE - Changes saved to Persons.txt
 2026-06-07T23:17:36 | INFO  | User: mbedoya         | LOGOUT - Session ended
+2026-06-07T23:22:46 | INFO  | User: mbedoya         | LOGIN - Session started
+2026-06-07T23:22:46 | INFO  | User: mbedoya         | LOAD - Persons file loaded
+2026-06-07T23:22:47 | INFO  | User: mbedoya         | SHOW - Content listed
+2026-06-07T23:22:52 | INFO  | User: mbedoya         | LOGOUT - Session ended
+2026-06-07T23:23:33 | WARN  | User: mbedoya         | LOGIN - Failed attempt 1
+2026-06-07T23:23:39 | INFO  | User: mbedoya         | LOGIN - Session started
+2026-06-07T23:23:39 | INFO  | User: mbedoya         | LOAD - Persons file loaded
+2026-06-07T23:23:41 | INFO  | User: mbedoya         | LOGOUT - Session ended
+2026-06-07T23:25:06 | INFO  | User: canaya          | LOGIN - Session started
+2026-06-07T23:25:06 | INFO  | User: canaya          | LOAD - Persons file loaded
+2026-06-07T23:25:25 | INFO  | User: canaya          | ADD - Add person executed
+2026-06-07T23:25:28 | INFO  | User: canaya          | SAVE - Changes saved to Persons.txt
+2026-06-07T23:25:30 | INFO  | User: canaya          | REPORT - City report viewed
+2026-06-07T23:25:32 | INFO  | User: canaya          | LOGOUT - Session ended
