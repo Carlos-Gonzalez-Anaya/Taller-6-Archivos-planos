@@ -28,3 +28,32 @@
 2026-06-07T23:25:28 | INFO  | User: canaya          | SAVE - Changes saved to Persons.txt
 2026-06-07T23:25:30 | INFO  | User: canaya          | REPORT - City report viewed
 2026-06-07T23:25:32 | INFO  | User: canaya          | LOGOUT - Session ended
+2026-06-07T23:31:51 | INFO  | User: canaya          | LOGIN - Session started
+2026-06-07T23:31:51 | INFO  | User: canaya          | LOAD - Persons file loaded
+2026-06-07T23:31:52 | INFO  | User: canaya          | SHOW - Content listed
+2026-06-07T23:31:57 | INFO  | User: canaya          | LOGOUT - Session ended
+2026-06-07T23:38:37 | WARN  | User: mbedoya         | LOGIN - Failed: account blocked
+2026-06-07T23:39:09 | INFO  | User: jzuluaga        | LOGIN - Session started
+2026-06-07T23:39:09 | INFO  | User: jzuluaga        | LOAD - Persons file loaded
+2026-06-07T23:39:20 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07T23:39:52 | INFO  | User: jzuluaga        | ADD - Add person executed
+2026-06-07T23:40:01 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07T23:40:13 | INFO  | User: jzuluaga        | EDIT - Edit person executed
+2026-06-07T23:40:21 | INFO  | User: jzuluaga        | REPORT - City report viewed
+2026-06-07T23:41:26 | INFO  | User: jzuluaga        | EDIT - Edit person executed
+2026-06-07T23:41:36 | INFO  | User: jzuluaga        | SAVE - Changes saved to Persons.txt
+2026-06-07T23:41:38 | INFO  | User: jzuluaga        | REPORT - City report viewed
+2026-06-07T23:42:11 | INFO  | User: jzuluaga        | DELETE - Delete person executed
+2026-06-07T23:42:14 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07T23:42:20 | INFO  | User: jzuluaga        | LOGOUT - Session ended
+2026-06-07T23:42:49 | WARN  | User: canaya          | LOGIN - Failed attempt 1
+2026-06-07T23:42:57 | WARN  | User: canaya          | LOGIN - Failed attempt 2
+2026-06-07T23:43:06 | WARN  | User: canaya          | LOGIN - Failed attempt 3
+2026-06-07T23:43:06 | WARN  | User: canaya          | LOGIN - Account blocked after 3 failed attempts
+2026-06-07T23:44:41 | INFO  | User: canaya          | LOGIN - Session started
+2026-06-07T23:44:41 | INFO  | User: canaya          | LOAD - Persons file loaded
+2026-06-07T23:44:43 | INFO  | User: canaya          | SHOW - Content listed
+2026-06-07T23:44:52 | INFO  | User: canaya          | DELETE - Delete person executed
+2026-06-07T23:44:54 | INFO  | User: canaya          | SAVE - Changes saved to Persons.txt
+2026-06-07T23:44:56 | INFO  | User: canaya          | SHOW - Content listed
+2026-06-07T23:45:00 | INFO  | User: canaya          | LOGOUT - Session ended
