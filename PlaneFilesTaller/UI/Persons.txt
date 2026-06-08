@@ -1,0 +1,3 @@
+﻿00001Maria               Bedoya              322 311 4015   Medellin            000015000.00   
+00002Juan                Zuluaga             322 311 4620   Medellin            000008200.00   
+00003Brad                Pit                 322 450 4545   Miami               014000000.00

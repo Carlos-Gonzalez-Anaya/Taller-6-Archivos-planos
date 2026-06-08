@@ -1,0 +1,16 @@
+2026-06-07 23:14:41 | INFO  | User: jzuluaga        | LOGIN - Session started
+2026-06-07 23:14:41 | INFO  | User: jzuluaga        | LOAD - Persons file loaded
+2026-06-07 23:14:43 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07 23:15:11 | INFO  | User: jzuluaga        | ADD - Add person executed
+2026-06-07 23:15:14 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07 23:15:36 | INFO  | User: jzuluaga        | EDIT - Edit person executed
+2026-06-07 23:15:39 | INFO  | User: jzuluaga        | SHOW - Content listed
+2026-06-07 23:15:43 | INFO  | User: jzuluaga        | SAVE - Changes saved to Persons.txt
+2026-06-07 23:15:44 | INFO  | User: jzuluaga        | LOGOUT - Session ended
+2026-06-07T23:16:51 | INFO  | User: mbedoya         | LOGIN - Session started
+2026-06-07T23:16:51 | INFO  | User: mbedoya         | LOAD - Persons file loaded
+2026-06-07T23:16:53 | INFO  | User: mbedoya         | SHOW - Content listed
+2026-06-07T23:17:27 | INFO  | User: mbedoya         | ADD - Add person executed
+2026-06-07T23:17:29 | INFO  | User: mbedoya         | REPORT - City report viewed
+2026-06-07T23:17:36 | INFO  | User: mbedoya         | SAVE - Changes saved to Persons.txt
+2026-06-07T23:17:36 | INFO  | User: mbedoya         | LOGOUT - Session ended
